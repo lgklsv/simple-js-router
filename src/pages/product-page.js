@@ -1,8 +1,8 @@
 export const product = function (product) {
-  const appContiner = document.querySelector('#app');
-  appContiner.innerHTML = '';
+  const appContainer = document.querySelector('#app');
+  appContainer.innerHTML = '';
 
   const header = document.createElement('h1');
   header.innerHTML = `PRODUCT ${product.id}`;
-  appContiner.append(header);
+  appContainer.append(header);
 };
